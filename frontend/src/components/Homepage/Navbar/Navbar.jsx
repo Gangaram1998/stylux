@@ -31,7 +31,7 @@ import {
   WHITE,
 } from "../../../constants/typography";
 import { LOGOUT } from "../../../Redux/auth/auth.type";
-import Menu1 from "../Menu";
+import Menu1 from "./Menu";
 import { FcBusinessman } from "react-icons/fc";
 import { GrSearch } from "react-icons/gr";
 import { GiHamburgerMenu } from "react-icons/gi";

@@ -1,10 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import { Box } from '@chakra-ui/react';
+import AllRoutes from './routes/Allroutes';
+import { Navbar } from './components/Homepage/Navbar';
+import { Footer } from './components/Homepage/Footer';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <Box className="App">
+      <Navbar />
+      <AllRoutes />
+      <Footer />
+
+
+    </Box>
   );
 }
 
