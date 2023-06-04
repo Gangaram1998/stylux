@@ -1,1 +1,1 @@
-export const BASE_URL = "https://dark-teal-colt-shoe.cyclic.app"
+export const BASE_URL = "http://localhost:3030"
