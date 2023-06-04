@@ -126,6 +126,7 @@ const Navbar = () => {
         fontSize={{ base: "12px", md: "14px", lg: "16px" }}
         justifyContent={{ base: START, sm: START, lg: "end" }}
         gap={4}
+        color={"black"}
       >
         <p>WELCOME GUEST</p>
         <p>DOWNLOAD APP</p>
@@ -333,10 +334,10 @@ const Navbar = () => {
                         "LOGIN WITH FACEBOOK"
                       )}
                     </p> */}
-                  {/* <Image
+                  <Image
                       src="https://res.cloudinary.com/ducgyycpy/image/upload/v1677477714/samples/styluxe/own-yepme-store-btn_g29q2g.png"
                       alt=""
-                    /> */}
+                    />
                   <Box fontWeight={"bold"}>
                     <Button
                       m={0}

@@ -34,6 +34,7 @@ const ProductPage = () => {
     let [query, setQuery] = useState("");
 
     let [searchParam, setSearchParam] = useSearchParams()
+    // console.log(fulldata)
 
 
 
@@ -128,10 +129,12 @@ const ProductPage = () => {
         try {
             setisloading(true);
             let res = await axios.get(
-                `${BASE_URL}/product?category=${catg}&page=${page}&${queryString}`
+                `${BASE_URL}/product?category=${catg}`
             );
             //?gender=female ya kuch bhi filter krna ha too
+            console.log(res)
             setproductlist(res.data.data);
+
             setfullData(res.data.data)
             setTotalPage(res.data.count);
             setisloading(false);
